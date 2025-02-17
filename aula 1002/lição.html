@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <label for="">Nome:</label>
+    <input type="text" name="nome" id="nome">
+    <br>
+    <label for="">SobreNome:</label>
+    <input type="text" name="nome" id="sobrenome">
+    <br>
+    <label for="">idade:</label>
+    <input type="text" name="nome" id="idade">
+    <br>
+    <button id="botaoFF">Gravar</button>
+
+</body>
+<script>
+var nome = document.getElementById("nome");
+var sobrenome = document.getElementById("sobrenome");
+var idade = document.getElementById("idade");
+var bt = document.getElementById("botaoFF");
+bt.addEventListener("click",function (){
+     var nomelindo =nome.value;
+     var sobrenomelido =sobrenome.value;
+     var idadelimpo =idade.value;
+     alert("Seja bem vindo" +" " +nomelindo +" " +sobrenomelido +" sua idade é" +" " +idadelimpo );
+  
+     
+    });
+
+</script>
+</html>

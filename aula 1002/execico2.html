@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <label for="">Nome:</label>
+    <input type="text" name="nome" id="nome">
+    <button id="botaoFF">Gravar</button>
+
+</body>
+<script>
+var nome = document.getElementById("nome");
+var bt = document.getElementById("botaoFF");
+bt.addEventListener("click",function (){
+     var nomelindo =nome.value;
+     alert("Seja bem vindo"+nomelindo);
+
+     
+    });
+
+</script>
+</html>
